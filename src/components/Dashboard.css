@@ -1,0 +1,57 @@
+/* Dashboard.css */
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* For mobile view */
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text-content {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.image-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-heading {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+  background-color: #0056b3;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
